@@ -28,6 +28,14 @@
     <Compile Include="src\database\models.py" />
     <Compile Include="src\database\testconnexion.py" />
     <Compile Include="src\main.py" />
+    <Compile Include="src\schemas\etape_schema.py" />
+    <Compile Include="src\schemas\ingredient_recette_schema.py" />
+    <Compile Include="src\schemas\ingredient_schema.py" />
+    <Compile Include="src\schemas\recette_recette_schema.py" />
+    <Compile Include="src\schemas\recette_schema.py" />
+    <Compile Include="src\schemas\type_ingredient_schema.py" />
+    <Compile Include="src\schemas\unite_schema.py" />
+    <Compile Include="src\schemas\variant_schema.py" />
     <Compile Include="src\services\etape_service.py" />
     <Compile Include="src\services\ingredient_recette_service.py" />
     <Compile Include="src\services\ingredient_service.py" />
@@ -41,6 +49,7 @@
   <ItemGroup>
     <Folder Include="docs\" />
     <Folder Include="src\database\scripts_sql\" />
+    <Folder Include="src\schemas\" />
     <Folder Include="tests\" />
     <Folder Include="src\" />
     <Folder Include="src\database\" />
