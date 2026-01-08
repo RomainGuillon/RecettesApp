@@ -28,6 +28,14 @@
     <Compile Include="src\database\models.py" />
     <Compile Include="src\database\testconnexion.py" />
     <Compile Include="src\main.py" />
+    <Compile Include="src\routers\etape_router.py" />
+    <Compile Include="src\routers\ingredient_recette_router.py" />
+    <Compile Include="src\routers\ingredient_router.py" />
+    <Compile Include="src\routers\recette_recette_router.py" />
+    <Compile Include="src\routers\recette_router.py" />
+    <Compile Include="src\routers\type_ingredient_router.py" />
+    <Compile Include="src\routers\unite_router.py" />
+    <Compile Include="src\routers\variante_router.py" />
     <Compile Include="src\schemas\etape_schema.py" />
     <Compile Include="src\schemas\ingredient_recette_schema.py" />
     <Compile Include="src\schemas\ingredient_schema.py" />
@@ -49,6 +57,7 @@
   <ItemGroup>
     <Folder Include="docs\" />
     <Folder Include="src\database\scripts_sql\" />
+    <Folder Include="src\routers\" />
     <Folder Include="src\schemas\" />
     <Folder Include="tests\" />
     <Folder Include="src\" />
